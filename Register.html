@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Capriola&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+    <header>
+          <nav class="nav-left">
+              <h1><span id="wHeel">wHeel</span>Hub</h1>
+          </nav>
+          <nav class="nav-right">
+              <h3><a href="Home.html">Go back to home page?</a></h3>
+          </nav>
+    </header>
+          <main>
+            <div class="main-right">
+                <h1>Registration</h1>
+                <form action="">
+                    <div class="reg-name">
+                        <label for="">Username </label>
+                        <input type="text" name="username" id="name">
+                    </div>
+                    <div class="reg-email">
+                        <label for="">Email </label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div class="reg-password">
+                        <label for="">Password </label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="reg-cpassword">
+                        <label for="">Confirm Password </label>
+                        <input type="password" name="confirm password" id="cpassword">
+                    </div>
+                    <div class="reg-age">
+                        <label for="">Date Of Birth </label>
+                        <input type="date" name="age" id="age">
+                    </div>
+                    <div class="reg-gender">
+                        <label for="">Gender</label> 
+                        <div class="radio-head">
+                        <div class="radio-male"><input type="radio" name="gender" id="male"><p>Male</p>  </div>
+                        <div class="radio-female"><input type="radio" name="gender" id="female"><p>Female</p> </div>
+                        </div>
+                        
+                    </div>
+                    <div class="reg-checkbox">
+                       <input type="checkbox" name="checkbox" id="agree"> <label for="">I agree to terms and conditions</label>
+                    </div>
+                    <button type="submit" onclick="returnValidate()"><b>Submit</b></button>
+                </form>
+            </div>
+               
+          </main>
+          <footer>
+               
+          </footer>
+          <script src="Register.js">
+
+          </script>
+
+</body>
